@@ -128,7 +128,7 @@ public class EmpHelper {
 		String option = input.nextLine();
 		switch (option) {
 		case "1":
-			if (empBo.approveAccount(pendingApplicator)) {
+			if (empBo.approveCard(pendingApplicator)) {
 				log.info("Card Approved.");
 			} else {
 				log.info("Invalid input. Please try again.");
